@@ -89,7 +89,7 @@ def transcribe():
 def translate(text, target_lang):
     url = "https://api-free.deepl.com/v2/translate"
     headers = {
-        "Authorization": "DeepL-Auth-Key 8565974c-4c4f-d541-78ef-6b43dff09274:fx"
+        "Authorization": "DeepL-Auth-Key YOURKEY"
     }
     data = {
         "text": text,
