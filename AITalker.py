@@ -1,5 +1,5 @@
 #Para utilizarlo hay que descargar e iniciar el Docker de Whisper: https://hub.docker.com/r/onerahmet/openai-whisper-asr-webservice
-
+#y el de Voicevox: https://hub.docker.com/r/voicevox/voicevox_engine
 import pyaudio
 import wave
 import keyboard
