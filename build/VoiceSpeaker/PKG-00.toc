@@ -1,0 +1,51 @@
+('F:\\La nueva gran carpeta\\Cosas de '
+ 'clase\\Python\\TestWhisper\\build\\VoiceSpeaker\\VoiceSpeaker.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True},
+ [('PYZ-00.pyz',
+   'F:\\La nueva gran carpeta\\Cosas de '
+   'clase\\Python\\TestWhisper\\build\\VoiceSpeaker\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'F:\\La nueva gran carpeta\\Cosas de '
+   'clase\\Python\\TestWhisper\\build\\VoiceSpeaker\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'F:\\La nueva gran carpeta\\Cosas de '
+   'clase\\Python\\TestWhisper\\build\\VoiceSpeaker\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'F:\\La nueva gran carpeta\\Cosas de '
+   'clase\\Python\\TestWhisper\\build\\VoiceSpeaker\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'F:\\La nueva gran carpeta\\Cosas de '
+   'clase\\Python\\TestWhisper\\build\\VoiceSpeaker\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'F:\\La nueva gran carpeta\\Cosas de '
+   'clase\\Python\\TestWhisper\\build\\VoiceSpeaker\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\hugop\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\hugop\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('VoiceSpeaker',
+   'F:\\La nueva gran carpeta\\Cosas de '
+   'clase\\Python\\TestWhisper\\VoiceSpeaker.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
