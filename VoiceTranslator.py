@@ -9,6 +9,6 @@ URL = input("URL de VoiceVox: ")
 
 while True:
     Recorder.record()
-    transcription = Transcriber.transcribe()
+    transcription = Transcriber.transcribe("audio.wav")
     JAtranslation = Translator.translate(transcription, "JA")
     VoiceSpeaker.speak(JAtranslation, URL)
