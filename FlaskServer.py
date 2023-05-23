@@ -39,12 +39,18 @@ def return_audio():
     return send_file(".\\AudioSources\\audio.wav", as_attachment=True)
 
 http_tunnel = ngrok.connect(5000, "http")
-print("URL del túnel HTTP:", http_tunnel.public_url)
+http_docker_tunnel = ngrok.connect(50021, "http")
+
+print("------------------------------------------------------")
+print("URL del túnel HTTP de Flask:", http_tunnel.public_url)
+print("URL del túnel HTTP de Docker:", http_docker_tunnel.public_url)
+print("------------------------------------------------------")
+
 def shutdown():
     ngrok.disconnect(http_tunnel.public_url)
+    ngrok.disconnect(http_docker_tunnel.public_url)
     ngrok.kill()
 atexit.register(shutdown)
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
